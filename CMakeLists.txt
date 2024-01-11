@@ -4,4 +4,4 @@ project(beginner)
 set(CMAKE_CXX_STANDARD 17)
 
 #add_executable(algorithm main.cpp utilites/TreeNode.hpp problems/tree_traverse.cpp problems/tree_traverse.hpp)
-add_executable(beginner utilites/TreeNode.hpp problems/tree_traverse.cpp )
+add_executable(beginner utilites/TreeNode.hpp  problems/LC00124_maxPathSum.cpp)

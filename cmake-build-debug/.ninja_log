@@ -1,5 +1,10 @@
 # ninja log v5
-258	288	1704879375352180978	beginner	4f7b43aea8ceffd3
-1	258	1704879375320509179	CMakeFiles/beginner.dir/problems/tree_traverse.cpp.o	d54c0326f77c0e0c
 4	271	1704879448394728634	CMakeFiles/beginner.dir/problems/tree_traverse.cpp.o	a58963ecb1013756
 272	298	1704879448422507714	beginner	4f7b43aea8ceffd3
+0	55	1704881004747591701	build.ninja	2bc01f35065241ae
+1	269	1704880974539135535	CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o	2c9ff67b19aaebe2
+1	35	1704881009498784097	beginner	786b013fa0fcee9e
+1	278	1704881088120946424	CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o	2c9ff67b19aaebe2
+279	309	1704881088152562015	beginner	786b013fa0fcee9e
+3	344	1704881469889020688	CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o	2c9ff67b19aaebe2
+344	378	1704881469925852794	beginner	786b013fa0fcee9e
