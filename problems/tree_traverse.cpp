@@ -8,13 +8,32 @@
 
 using namespace std;
 
+// left -> root -> right
+void traverse_inorder(TreeNode* root){
+    if(root){
+        traverse_inorder(root->left);
+        cout << root->val << " ";
+        traverse_inorder(root->right);
+    }
+}
 
-void traverse(TreeNode* root){
+// root -> left -> right
+void traverse_preorder(TreeNode* root){
     if(root == nullptr) return;
 
-    traverse(root->left);
-    cout << root->val << endl;
-    traverse(root->right);
+    cout << root->val << " ";
+    traverse_preorder(root->left);
+    traverse_preorder(root->right);
+
+}
+
+// left -> right -> root
+void traverse_postorder(TreeNode* root){
+    if(root == nullptr) return;
+
+    traverse_postorder(root->left);
+    traverse_postorder(root->right);
+    cout << root->val << " ";
 
 }
 
@@ -25,6 +44,11 @@ int main(){
     root->right = new TreeNode(3);
     root->left->left = new TreeNode(4);
     root->left->right = new TreeNode(5);
-    traverse(root);
+    cout << "Inorder" << endl;
+    traverse_inorder(root);
+    cout << "\nPreorder" << endl;
+    traverse_preorder(root);
+    cout << "\nPostorder" << endl;
+    traverse_postorder(root);
 
 }

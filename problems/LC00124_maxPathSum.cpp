@@ -13,11 +13,9 @@ int maxPathSum(TreeNode* root) {
     if(root == nullptr) return 0;
     int left = max(0, maxPathSum(root->left));
     int right = max(0, maxPathSum(root->right));
-
     // postorder
     res = max(res, left + right + root->val);
     return max(left, right) + root->val;
-
 }
 
 int main(){

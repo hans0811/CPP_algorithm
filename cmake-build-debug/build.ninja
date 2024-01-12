@@ -46,8 +46,8 @@ cmake_ninja_workdir = /Users/hans/Desktop/code/cpp/alogrithm/algorithm/cmake-bui
 
 build cmake_object_order_depends_target_beginner: phony || CMakeFiles/beginner.dir
 
-build CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o: CXX_COMPILER__beginner_Debug /Users/hans/Desktop/code/cpp/alogrithm/algorithm/problems/LC00124_maxPathSum.cpp || cmake_object_order_depends_target_beginner
-  DEP_FILE = CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o.d
+build CMakeFiles/beginner.dir/problems/LC00105_buildTree.cpp.o: CXX_COMPILER__beginner_Debug /Users/hans/Desktop/code/cpp/alogrithm/algorithm/problems/LC00105_buildTree.cpp || cmake_object_order_depends_target_beginner
+  DEP_FILE = CMakeFiles/beginner.dir/problems/LC00105_buildTree.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/beginner.dir
   OBJECT_FILE_DIR = CMakeFiles/beginner.dir/problems
@@ -60,7 +60,7 @@ build CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o: CXX_COMPILER__b
 #############################################
 # Link the executable beginner
 
-build beginner: CXX_EXECUTABLE_LINKER__beginner_Debug CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o
+build beginner: CXX_EXECUTABLE_LINKER__beginner_Debug CMakeFiles/beginner.dir/problems/LC00105_buildTree.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/beginner.dir
   POST_BUILD = :
