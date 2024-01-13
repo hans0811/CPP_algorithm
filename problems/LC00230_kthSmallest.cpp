@@ -4,19 +4,25 @@
 #include "tree_traverse.hpp"
 #include "../utilites/TreeNode.hpp"
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
-int res = INT_MIN;
-int maxPathSum(TreeNode* root) {
+class Solution{
+public:
+    void inOrderTraversal(TreeNode* root, vector<int> &v){
+        if(root == NULL) return;
+        inOrderTraversal(root->left, v);
+        v.push_back(root->val);
+        inOrderTraversal(root->right, v);
+    }
 
-    if(root == nullptr) return 0;
-    int left = max(0, maxPathSum(root->left));
-    int right = max(0, maxPathSum(root->right));
-    // postorder
-    res = max(res, left + right + root->val);
-    return max(left, right) + root->val;
-}
+    int kthSmallest(TreeNode* root, int k){
+        vector<int> v;
+        inOrderTraversal(root, v);
+        return v[k-1];
+    }
+};
 
 int main(){
     TreeNode* root = new TreeNode(-10);
