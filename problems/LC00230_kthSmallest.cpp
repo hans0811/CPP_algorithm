@@ -30,7 +30,4 @@ int main(){
     root->right = new TreeNode(20);
     root->right->left = new TreeNode(15);
     root->right->right = new TreeNode(7);
-    maxPathSum(root);
-
-    cout<< res << endl;
 }
