@@ -106,7 +106,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "problems/LC00105_buildTree.cpp",
+			"path" : "problems/LC00124_maxPathSum.cpp",
 			"sourceGroupIndex" : 1
 		}
 	],
