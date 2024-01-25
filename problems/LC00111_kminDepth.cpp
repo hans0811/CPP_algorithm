@@ -12,31 +12,31 @@ using namespace std;
 class Solution{
 public:
     int minDepth(TreeNode* root) {
-        if(root == nullptr) return 0;
+        if (root == nullptr) return 0;
         queue<TreeNode*> q;
         q.push(root);
-
         // root itself is the first level, so depth initialize as 1
         int depth = 1;
 
-        while(!q.empty()){
+        while (!q.empty()) {
+            /**<向下扩展-200>
+            <div class="img-content"><img src="/images/dijkstra/1.jpeg" class="myimage"/></div>
+            */
             int sz = q.size();
-
-            for(int i=0; i < sz; i++){
+            /*将当前队列中的所有节点向四周扩散*/
+            for (int i = 0; i < sz; i++) {
                 TreeNode* cur = q.front();
                 q.pop();
-
-                if(cur->left == nullptr && cur->right == nullptr){
+                /*判断是否到达终点*/
+                if (cur->left == nullptr && cur->right == nullptr)
                     return depth;
-                }
-
-                if(cur->left != nullptr){
+                /*将 cur 的相邻节点加入队列*/
+                if (cur->left != nullptr)
                     q.push(cur->left);
-                }
-                if(cur->right != nullptr){
+                if (cur->right != nullptr)
                     q.push(cur->right);
-                }
             }
+            /* 这里增加步数 */
             depth++;
         }
         return depth;
