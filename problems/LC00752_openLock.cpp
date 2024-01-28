@@ -6,7 +6,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-#include <unordered_set>`
+#include <unordered_set>
 
 using namespace std;
 
@@ -40,52 +40,43 @@ public:
 
     int openLock(vector<string>& deadends, string target) {
         // record deadends
-        unordered_set<string> deads;
-        for(string s : deadends){
-            deads.insert(s);
-        }
-        // record visited
-        unordered_set<string> visited;
-        queue<string> q;
+        unordered_set<string> deads(deadends.begin(), deadends.end());
+        unordered_set<string> q1, q2, visited;
 
         // USE BFS from begin
         int step = 0;
-        q.push("0000");
-        visited.insert("0000");
+        q1.insert("0000");
+        q2.insert(target);
 
-        while(!q.empty()){
-            int sz = q.size();
+        while(!q1.empty() && !q2.empty()){
+            //
+            unordered_set<string> temp;
 
             // Board
-            for(int i=0; i < sz; i++){
-                string cur = q.front();
-                q.pop();
-                cout << cur << endl;
-
-                // if it is end
-                if(deads.count(cur)){
+            for(auto cur : q1){
+                if(deads.count(cur))
                     continue;
-                }
-                if(cur == target){
+                if(q2.count(cur))
                     return step;
-                }
 
-                for(int j=0; j < 4; j++){
+                visited.insert(cur);
+
+                for(int j=0; j<4; j++){
                     string up = plusOne(cur, j);
-                    if (!visited.count(up)) {
-                        q.push(up);
-                        visited.insert(up);
-                    }
+                    if(!visited.count(up))
+                        temp.insert(up);
                     string down = minusOne(cur, j);
-                    if(!visited.count(down)){
-                        q.push(down);
-                        visited.insert(down);
-                    }
+                    if(!visited.count(down))
+                        temp.insert(down);
                 }
-            }
-            step++;
-        }
 
+            }
+
+            step++;
+            q1 = q2;
+            q2 = temp;
+
+        }
         return -1;
     }
 };
