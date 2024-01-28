@@ -1,0 +1,11 @@
+//
+// Created by hans on 2024/1/28.
+//
+
+#ifndef BEGINNER_BINARYSEARCH_HPP
+#define BEGINNER_BINARYSEARCH_HPP
+
+
+
+
+#endif //BEGINNER_BINARYSEARCH_HPP
