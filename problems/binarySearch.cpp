@@ -31,10 +31,19 @@ public:
     int binarySearch_left_bound(std::vector<int>& nums, int target){
         int l = 0, r = nums.size() - 1;
         // close
-        while(l <= r){
+        while(l < r){
             int mid = l + (r-l) / 2;
-
+            if(nums[mid] == target){
+                r = mid;
+            }
+            else if(nums[mid] < target){
+                l = mid + 1;
+            }
+            else if(nums[mid] > target){
+                r = mid;
+            }
         }
+        return l;
     }
 
 };
