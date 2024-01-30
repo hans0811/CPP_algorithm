@@ -28,4 +28,13 @@ public:
         return -1;
     }
 
+    int binarySearch_left_bound(std::vector<int>& nums, int target){
+        int l = 0, r = nums.size() - 1;
+        // close
+        while(l <= r){
+            int mid = l + (r-l) / 2;
+
+        }
+    }
+
 };
