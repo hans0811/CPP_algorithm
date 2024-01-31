@@ -31,7 +31,7 @@ public:
     int binarySearch_left_bound(std::vector<int>& nums, int target){
         int l = 0, r = nums.size() - 1;
         // close
-        while(l < r){
+        while(l < r){ // attention
             int mid = l + (r-l) / 2;
             if(nums[mid] == target){
                 r = mid;
@@ -40,10 +40,29 @@ public:
                 l = mid + 1;
             }
             else if(nums[mid] > target){
-                r = mid;
+                r = mid; // attention
             }
         }
         return l;
     }
+
+    int binarySearch_right_bound(std::vector<int>& nums, int target){
+        int l = 0, r = nums.size() - 1;
+        // close
+        while(l < r){ // attention
+            int mid = l + (r-l) / 2;
+            if(nums[mid] == target){
+                l = mid + 1 ; // attention
+            }
+            else if(nums[mid] < target){
+                l = mid + 1;
+            }
+            else if(nums[mid] > target){
+                r = mid;
+            }
+        }
+        return l - 1;// attention
+    }
+
 
 };
