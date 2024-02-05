@@ -1,33 +1,22 @@
 # ninja log v5
-4	271	1704879448394728634	CMakeFiles/beginner.dir/problems/tree_traverse.cpp.o	a58963ecb1013756
-<<<<<<< HEAD
-0	55	1705396631368313077	build.ninja	2bc01f35065241ae
-1	392	1705309007009055684	CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o	2c9ff67b19aaebe2
-393	427	1705309007045741618	beginner	786b013fa0fcee9e
-=======
-0	55	1705307310336601451	build.ninja	2bc01f35065241ae
-3	344	1704881469889020688	CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o	2c9ff67b19aaebe2
-486	547	1705307024894879556	beginner	55a1ed07dae67eed
->>>>>>> master
-378	411	1704959053089420454	algorithm	7739fbb95b9c0aa5
-0	382	1704943294179681295	CMakeFiles/algorithm.dir/main.cpp.o	2dcedc261d036042
-2	378	1704959053054713379	CMakeFiles/algorithm.dir/problems/tree_traverse.cpp.o	b04b4cee44c33ef1
-1	486	1705307024832078873	CMakeFiles/beginner.dir/problems/LC00105_buildTree.cpp.o	3e51414202494c48
-<<<<<<< HEAD
+0	55	1707057938154048193	build.ninja	2bc01f35065241ae
 0	350	1705396709616661161	CMakeFiles/beginner.dir/utilites/ListNode.cpp.o	4aa0d12f620565d0
-0	376	1705396709643168870	CMakeFiles/beginner.dir/problems/linklist/LC00021_meger2Lists.cpp.o	b7494470e780e38f
-376	421	1705396709689350308	beginner	b7c28de1e078a09b
-=======
-0	350	1705307322000195021	CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o	2c9ff67b19aaebe2
-350	383	1705307322036079876	beginner	786b013fa0fcee9e
-1	338	1705307523351836145	CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o	2c9ff67b19aaebe2
-338	365	1705307523381214325	beginner	786b013fa0fcee9e
-1	271	1705307555422404691	CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o	2c9ff67b19aaebe2
-271	296	1705307555448541305	beginner	786b013fa0fcee9e
-5	393	1705308138550760945	CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o	2c9ff67b19aaebe2
-393	428	1705308138588017120	beginner	786b013fa0fcee9e
-2	279	1705308275541559063	CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o	2c9ff67b19aaebe2
-279	316	1705308275579240747	beginner	786b013fa0fcee9e
-1	392	1705309007009055684	CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o	2c9ff67b19aaebe2
+4	271	1704879448394728634	CMakeFiles/beginner.dir/problems/tree_traverse.cpp.o	a58963ecb1013756
+378	411	1704959053089420454	algorithm	7739fbb95b9c0aa5
 393	427	1705309007045741618	beginner	786b013fa0fcee9e
->>>>>>> master
+0	382	1704943294179681295	CMakeFiles/algorithm.dir/main.cpp.o	2dcedc261d036042
+1	486	1705307024832078873	CMakeFiles/beginner.dir/problems/LC00105_buildTree.cpp.o	3e51414202494c48
+2	378	1704959053054713379	CMakeFiles/algorithm.dir/problems/tree_traverse.cpp.o	b04b4cee44c33ef1
+1	392	1705309007009055684	CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o	2c9ff67b19aaebe2
+0	376	1705396709643168870	CMakeFiles/beginner.dir/problems/linklist/LC00021_meger2Lists.cpp.o	b7494470e780e38f
+2	305	1707057940633220075	CMakeFiles/beginner.dir/utilites/ListNode.cpp.o	4aa0d12f620565d0
+0	371	1707057940700684743	CMakeFiles/beginner.dir/problems/LC00567_checkInclusion.cpp.o	b715845d8ded2f40
+372	609	1707057940939397504	beginner	cdc269df0bf9a671
+1	390	1707058096102135380	CMakeFiles/beginner.dir/problems/LC00567_checkInclusion.cpp.o	b715845d8ded2f40
+390	422	1707058096136377257	beginner	cdc269df0bf9a671
+4	393	1707058429755016305	CMakeFiles/beginner.dir/problems/LC00567_checkInclusion.cpp.o	b715845d8ded2f40
+393	426	1707058429790748477	beginner	cdc269df0bf9a671
+2	487	1707060170347860415	CMakeFiles/beginner.dir/problems/LC00567_checkInclusion.cpp.o	b715845d8ded2f40
+487	528	1707060170390414686	beginner	cdc269df0bf9a671
+5	377	1707060206357887320	CMakeFiles/beginner.dir/problems/LC00567_checkInclusion.cpp.o	b715845d8ded2f40
+377	408	1707060206391705624	beginner	cdc269df0bf9a671

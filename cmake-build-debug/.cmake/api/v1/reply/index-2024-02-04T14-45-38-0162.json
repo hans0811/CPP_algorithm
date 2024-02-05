@@ -26,11 +26,7 @@
 	"objects" : 
 	[
 		{
-<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/index-2024-01-16T09-17-11-0377.json
-			"jsonFile" : "codemodel-v2-90ccbc0369d1feab3f1a.json",
-========
-			"jsonFile" : "codemodel-v2-52279c4de6fce25ece6a.json",
->>>>>>>> master:cmake-build-debug/.cmake/api/v1/reply/index-2024-01-15T08-28-30-0345.json
+			"jsonFile" : "codemodel-v2-de19c9e84e8f608f30cd.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
@@ -90,11 +86,7 @@
 		},
 		"codemodel-v2" : 
 		{
-<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/index-2024-01-16T09-17-11-0377.json
-			"jsonFile" : "codemodel-v2-90ccbc0369d1feab3f1a.json",
-========
-			"jsonFile" : "codemodel-v2-52279c4de6fce25ece6a.json",
->>>>>>>> master:cmake-build-debug/.cmake/api/v1/reply/index-2024-01-15T08-28-30-0345.json
+			"jsonFile" : "codemodel-v2-de19c9e84e8f608f30cd.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
