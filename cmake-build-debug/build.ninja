@@ -46,16 +46,11 @@ cmake_ninja_workdir = /Users/hans/Desktop/code/cpp/alogrithm/algorithm/cmake-bui
 
 build cmake_object_order_depends_target_beginner: phony || CMakeFiles/beginner.dir
 
-<<<<<<< HEAD
-build CMakeFiles/beginner.dir/problems/linklist/LC00021_meger2Lists.cpp.o: CXX_COMPILER__beginner_Debug /Users/hans/Desktop/code/cpp/alogrithm/algorithm/problems/linklist/LC00021_meger2Lists.cpp || cmake_object_order_depends_target_beginner
-  DEP_FILE = CMakeFiles/beginner.dir/problems/linklist/LC00021_meger2Lists.cpp.o.d
-=======
-build CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o: CXX_COMPILER__beginner_Debug /Users/hans/Desktop/code/cpp/alogrithm/algorithm/problems/LC00124_maxPathSum.cpp || cmake_object_order_depends_target_beginner
-  DEP_FILE = CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o.d
->>>>>>> master
+build CMakeFiles/beginner.dir/problems/LC00567_checkInclusion.cpp.o: CXX_COMPILER__beginner_Debug /Users/hans/Desktop/code/cpp/alogrithm/algorithm/problems/LC00567_checkInclusion.cpp || cmake_object_order_depends_target_beginner
+  DEP_FILE = CMakeFiles/beginner.dir/problems/LC00567_checkInclusion.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/beginner.dir
-  OBJECT_FILE_DIR = CMakeFiles/beginner.dir/problems/linklist
+  OBJECT_FILE_DIR = CMakeFiles/beginner.dir/problems
 
 build CMakeFiles/beginner.dir/utilites/ListNode.cpp.o: CXX_COMPILER__beginner_Debug /Users/hans/Desktop/code/cpp/alogrithm/algorithm/utilites/ListNode.cpp || cmake_object_order_depends_target_beginner
   DEP_FILE = CMakeFiles/beginner.dir/utilites/ListNode.cpp.o.d
@@ -71,11 +66,7 @@ build CMakeFiles/beginner.dir/utilites/ListNode.cpp.o: CXX_COMPILER__beginner_De
 #############################################
 # Link the executable beginner
 
-<<<<<<< HEAD
-build beginner: CXX_EXECUTABLE_LINKER__beginner_Debug CMakeFiles/beginner.dir/problems/linklist/LC00021_meger2Lists.cpp.o CMakeFiles/beginner.dir/utilites/ListNode.cpp.o
-=======
-build beginner: CXX_EXECUTABLE_LINKER__beginner_Debug CMakeFiles/beginner.dir/problems/LC00124_maxPathSum.cpp.o
->>>>>>> master
+build beginner: CXX_EXECUTABLE_LINKER__beginner_Debug CMakeFiles/beginner.dir/problems/LC00567_checkInclusion.cpp.o CMakeFiles/beginner.dir/utilites/ListNode.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/beginner.dir
   POST_BUILD = :

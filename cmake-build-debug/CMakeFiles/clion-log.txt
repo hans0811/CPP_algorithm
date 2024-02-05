@@ -1,9 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/hans/Desktop/code/cpp/alogrithm/algorithm -B /Users/hans/Desktop/code/cpp/alogrithm/algorithm/cmake-build-debug
-CMake Error at CMakeLists.txt:7:
-  Parse error.  Expected a command name, got unquoted argument with text
-  "<<<<<<<".
-
-
--- Configuring incomplete, errors occurred!
-See also "/Users/hans/Desktop/code/cpp/alogrithm/algorithm/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "/Users/hans/Desktop/code/cpp/alogrithm/algorithm/cmake-build-debug/CMakeFiles/CMakeError.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/hans/Desktop/code/cpp/alogrithm/algorithm/cmake-build-debug

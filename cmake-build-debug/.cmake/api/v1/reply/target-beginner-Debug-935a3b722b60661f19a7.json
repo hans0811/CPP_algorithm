@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -109,11 +109,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/target-beginner-Debug-1f98aa93fcd6d27956b7.json
-			"path" : "problems/linklist/LC00021_meger2Lists.cpp",
-========
-			"path" : "problems/LC00124_maxPathSum.cpp",
->>>>>>>> master:cmake-build-debug/.cmake/api/v1/reply/target-beginner-Debug-d054b3807c6d6044e3d2.json
+			"path" : "problems/LC00567_checkInclusion.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
